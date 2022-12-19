@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  /* The image used */
+ background-color: #232b2b;
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.navbar {
+  background-color: #7393b3;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 0 5%;
+  /* transition-timing-function: linear; */
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+.navbar ul li {
+  /* transition-timing-function: linear; */
+}
+.navbar ul li a {
+  color: #01152a;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+
+  font-family: "Chivo Mono", monospace;
+  transition-timing-function: linear;
+  transition-timing-function: ease;
+  transition-timing-function: ease-in;
+  margin: 0px 16px;
+  /* border: 2px solid red; */
+ transition-timing-function: linear;
+}
+.logo {
+  /* display: inline-block; rgb(237, 234, 222) */
+  color: #f9f6ee;
+  font-size: 30px;
+  padding-right: 5%;
+  /* right :15px; */
+  /* position: absolute; */
+  /* ai khan a  */
+  /* font-family: 'Chivo Mono', monospace; */
+  font-family: "Pacifico", cursive;
+ 
+}
+.logo span {
+  color: #000000;
+  font-family: "Zen Dots", cursive;
+}
+.navbar ul li a:hover {
+  /* ai khan a  */
+  color: #faf9f6;
+  border-radius: 15px;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px green, 0 0 30px green,
+    0 0 40px green, 0 0 55px green, 0 0 70px green;
+  background-color: rgba(0, 0, 0, 0.274);
+  font-weight: bold;
+  transition: all ease 0.5s;
+  /* text-decoration: underline; */
+    /* Increase this as per requirement */
+    padding-bottom: 15px;
+    border-bottom-style: solid;
+    border-bottom-width: 2.5px;
+    width: fit-content;
+
+}
+
+.navbar:hover {
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  opacity: 0.89;
+  transition: all ease-in-out 1.5s;
+}
+.logo:hover {
+  cursor: pointer;
+  color: bisque;
+  text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+    0px -4px 10px rgba(255, 255, 255, 0.3);
+  /* text-shadow: 10px 10px 25px rg b(81,67,21),
+    -10px 10px 25px rgb(81,67,21),
+    -10px -10px 25px rgb(78, 75, 66),
+    10px -10px 25px rgb(81,67,21); */
+  transition: all linear 0.4s ;
+  transform: rotate(-2deg);
+  
+}
+.logo span:hover {
+  color: #0758a9;
+}
+
+.form-login{
+  background-color: rgb(190, 212, 223);
+  width: 400px;
+  height: 400px;
+  /* margin-bottom: 100px; */
+  /* position: absolute; */
+  /* left: 30%;
+  top: 20%; */
+  border-radius: 7px;
+  /* margin: auto; */
+  display: flex;
+  /* text-align: center; */
+  align-items: center; 
+  margin: auto ;
+  justify-content: center;
+  opacity: 0.5;
+  /* align-items: center; */
+  /* text-align: center; */
+  margin-top: 10%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 25px 15px;
+
+}
+.form-login input {
+  outline: none;
+  display: flex;
+  /* margin: auto; */
+  padding: 5px;
+  margin-right: 50px;
+  position: relative;
+  margin: auto;
+  width: 250px;
+}
+input[type=submit]{
+  justify-content: center;
+  color:whitesmoke;
+  align-content: center;
+  text-align: center;
+  margin: auto;
+  background-color: #14406c6a;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /* outline: none; */
+  border: none;
+  cursor: pointer;
+  width: 80px;
+  height: 32px;
+  border-radius: 4px;
+  padding: 3px;
+
+  
+}
+.form-login:hover {
+  opacity: .75;
+transition: all ease-out 0.5s;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 45px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+input[type=submit]:hover{ 
+  background-color:  #0d56a0e7 ;
+  transition: all ease-in-out 0.5s;
+}
+
+.usps{
+   border: none;
+   border-radius: 4px;
+   font-family: 'Courier New', Courier, monospace;
+   color: #00abdfae ;
+  }
